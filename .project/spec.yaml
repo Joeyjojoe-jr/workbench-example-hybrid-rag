@@ -99,6 +99,8 @@ execution:
     secrets:
         - variable: NVIDIA_API_KEY
           description: NVIDIA API Key for Cloud Inference (starts with "nvapi-")
+        - variable: HFtokenFG
+          description: ""
     mounts:
         - type: project
           target: /project/
