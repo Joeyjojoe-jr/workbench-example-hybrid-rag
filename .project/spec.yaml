@@ -101,6 +101,8 @@ execution:
           description: NVIDIA API Key for Cloud Inference (starts with "nvapi-")
         - variable: HFtokenFG
           description: ""
+        - variable: HFTokenWrite
+          description: Write HF Token
     mounts:
         - type: project
           target: /project/
